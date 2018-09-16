@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run checkjs",
     "checkjs": "tsc --allowJs --checkJs --noEmit --target ES6 src/*.js"
   },
   "keywords": [],
@@ -12,6 +12,6 @@
   "license": "ISC",
   "devDependencies": {
     "@composi/get-type": "^1.0.0",
-    "typescript": "^2.9.2"
+    "typescript": "^3.0.3"
   }
 }
