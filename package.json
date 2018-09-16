@@ -1,0 +1,17 @@
+{
+  "name": "scope-package-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "checkjs": "tsc --allowJs --checkJs --noEmit --target ES6 src/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@composi/get-type": "^1.0.0",
+    "typescript": "^2.9.2"
+  }
+}
