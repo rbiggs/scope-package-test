@@ -8,6 +8,13 @@
     "checkjs": "tsc --allowJs --checkJs --noEmit --target ES6 src/*.js"
   },
   "keywords": [],
+  "files": [
+    ".vscode",
+    "src",
+    ".gitignore",
+    "package-lock.json",
+    "package.json"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
